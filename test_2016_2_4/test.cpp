@@ -7,7 +7,7 @@ using namespace std;
 int main()
 {
 	const char *pstrImageName = "learn2.JPG";
-	const char *pstrWindowsTitle = "OpenCV第一个程序";
+	const char *pstrWindowsTitle = "OpenCV the first program";
 
 	//read the image from file
 	IplImage *pImage = cvLoadImage(pstrImageName, CV_LOAD_IMAGE_UNCHANGED);
