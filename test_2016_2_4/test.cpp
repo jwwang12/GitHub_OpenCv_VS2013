@@ -1,5 +1,6 @@
 //显示图像文件
-//测试一下个，测试一下删除功能
+//测试一下
+//测试一下分支功能
 #include <opencv2/opencv.hpp>
 using namespace std;
 
