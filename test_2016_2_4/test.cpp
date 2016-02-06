@@ -9,16 +9,16 @@ int main()
 	const char *pstrImageName = "learn2.JPG";
 	const char *pstrWindowsTitle = "OpenCV第一个程序";
 
-	//从文件中读取图像
+	//read the image from file
 	IplImage *pImage = cvLoadImage(pstrImageName, CV_LOAD_IMAGE_UNCHANGED);
 
-	//创建窗口
+	//create windows
 	cvNamedWindow(pstrWindowsTitle, CV_WINDOW_AUTOSIZE);
 
-	//在指定窗口中显示图像
+	//show the image the windows
 	cvShowImage(pstrWindowsTitle, pImage);
 
-	//等待按键事件
+	//wait the thing of the key
 	cvWaitKey();
 
 	cvDestroyWindow(pstrWindowsTitle);
