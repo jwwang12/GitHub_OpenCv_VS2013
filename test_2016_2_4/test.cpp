@@ -1,6 +1,4 @@
-//显示图像文件
-//测试一下个，测试一下删除功能
-//测试一下分支切换
+//change the zhushi in English
 #include <opencv2/opencv.hpp>
 using namespace std;
 
