@@ -1,4 +1,5 @@
-//change the zhushi in English
+﻿//change the zhushi in English
+//测试一下github中文显示
 #include <opencv2/opencv.hpp>
 using namespace std;
 
